@@ -1,6 +1,4 @@
-Here’s the content for your **README.md** file:  
 
----
 
 # **Omniplex - Movie Browsing and Booking App**
 
