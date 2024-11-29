@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omniplex - Movies Made Simple</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Omniplex</div>
+      <ul class="nav-links">
+        <li><a href="browseMovies.html">Movies</a></li>
+        <li><a href="#">Showtimes</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><button class="btn-login" id="login-button">Login</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Movies Made Simple</h1>
+      <p class="hero-description">
+        Discover and book the best movies with ease. Your entertainment journey begins here.
+      </p>
+      <button class="btn-primary" onclick="location.href='browseMovies.html'">Browse Movies</button>
+
+    </div>
+  </section>
+
+  
+
+  
+
+  <!-- Featured Movies -->
+
+  <section class="featured-movies">
+    <h2 class="section-title">Featured Movies</h2>
+  
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+     
+        <div class="swiper-slide movie-card">
+          <img src="./images/red-one-movie-3840x2160-19152.jpg" alt="RedOne">
+          <h3>Red One</h3>
+          <p>Action, Adventure | 123 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+
+        </div>
+     
+        <div class="swiper-slide movie-card">
+          <img src="./images/wicked-movie-poster-3840x2160-18391.jpeg" alt="Wicked">
+          <h3>Wicked</h3>
+          <p>Fantasy, Romance | 160 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      
+        <div class="swiper-slide movie-card">
+          <img src="./images/paul-mescal-3840x2160-18118.jpg" alt="Gladiator II">
+          <h3>Gladiator II</h3>
+          <p>Action, Adventure, Drama | 150 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+    
+        <div class="swiper-slide movie-card">
+          <img src="./images/ryan-gosling-as-ken-3840x2160-11215.jpeg" alt="Barbie">
+          <h3>Barbie</h3>
+          <p>Comedy | 113 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+
+        <div class="swiper-slide movie-card">
+            <img src="./images/allu-arjun-pushpa-2-3840x2160-19900.jpg" alt="Pushpa2">
+            <h3>Pushpa 2</h3>
+            <p>Action, Thrill | 190 min</p>
+            <button class="btn-secondary">Coming Soon</button>
+          </div>
+      </div>
+    
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section class="featured-movies">
+    <h2 class="section-title">Featured Movies</h2>
+    <div class="movie-grid">
+      <div class="movie-card">
+        <img src="./images/dune_part2.jpg" alt="Dune">
+        <div class="movie-details">
+          <h3>Dune: Part Two</h3>
+          <p>Sci-Fi | 166 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="./images/poorthings.jpg" alt="Poor Things">
+        <div class="movie-details">
+          <h3>Poor Things</h3>
+          <p>Drama | 141 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="./images/kung-fu-panda-4.jpg" alt="Kung Fu Panda 4">
+        <div class="movie-details">
+          <h3>Kung Fu Panda 4</h3>
+          <p>Animation | 94 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="./images/jawan.jpg" alt="Dune">
+        <div class="movie-details">
+          <h3>Jawan</h3>
+          <p>Action | 169 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="./images/dhoom3.jpg" alt="Dune">
+        <div class="movie-details">
+          <h3>Dhoom3</h3>
+          <p>Action, Thriller | 172 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="./images/pathan.jpg" alt="Dune">
+        <div class="movie-details">
+          <h3>Pathaan</h3>
+          <p>Action, Thriller | 146 min</p>
+          <button class="btn-primary" onclick="location.href='movieIntroduction.html'">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Omniplex. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
